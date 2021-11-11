@@ -1,1 +1,2 @@
-# PROJECT27-tablet-template
+# swing-to-survive
+Sling Game
