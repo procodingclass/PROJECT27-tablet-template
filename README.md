@@ -1,2 +1,1 @@
-# swing-to-survive
-Sling Game
+# Tablet-PRO-C27-Project-Template
