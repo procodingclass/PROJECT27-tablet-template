@@ -20,7 +20,7 @@ var row1 = [
   { x: 426, y: 20 },
   { x: 456, y: 18 },
   { x: 486, y: 14 },
-  { x: 497, y: 25 }
+  { x: 497, y: 25 },
 ];
 
 var row2 = [
@@ -45,7 +45,7 @@ var row2 = [
   { x: 426, y: 55 },
   { x: 456, y: 53 },
   { x: 486, y: 49 },
-  { x: 497, y: 60 }
+  { x: 497, y: 60 },
 ];
 
 var row3 = [
@@ -70,14 +70,14 @@ var row3 = [
   { x: 426, y: 90 },
   { x: 456, y: 88 },
   { x: 486, y: 84 },
-  { x: 497, y: 95 }
+  { x: 497, y: 95 },
 ];
 var starImg;
 var bgImg;
 
 function preload() {
-  starImg = loadImage("./assets/star.png");
-  bgImg = loadImage("./assets/Night-background.png");
+  starImg = loadImage("star.png");
+  bgImg = loadImage("Night-background.png");
 }
 
 function setup() {
@@ -85,8 +85,8 @@ function setup() {
 }
 
 function draw() {
- // write a line of code to set background
-
+  // write a line of code to set background
+  
 
   for (var i = 0; i < row1.length; i++) {
     push();
@@ -102,9 +102,8 @@ function draw() {
     pop();
   }
 
-// write a for loop to display a third row of stars
-// coordinates of the third row3 is given. 
-
+  // write a for loop to display a third row of stars
+  // coordinates of the third row3 is given.
 
 
 
